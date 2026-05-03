@@ -1,0 +1,86 @@
+/* static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#status {
+    color: gray;
+    font-style: italic;
+    margin: 8px 0;
+}
+
+/* ✅ Main table styling */
+#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* ✅ Dark header like screenshot 2 */
+#dataTable thead tr {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+#dataTable th {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #444;
+}
+
+/* ✅ Each cell has clear borders and padding */
+#dataTable td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    color: #333;
+}
+
+/* ✅ Alternating row colors for readability */
+#dataTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#dataTable tbody tr:hover {
+    background-color: #eef3ff;
+}
+
+/* Filters section */
+h3 {
+    margin-top: 25px;
+}
+
+label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
